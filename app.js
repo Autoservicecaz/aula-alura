@@ -5,7 +5,7 @@ function escrever(texto){
 alert('Boas vinda, voce foi desafiado a descobrir um numero:');
     var palpite = parseInt(prompt('Escolha um numero entre 1 e 10:'));
     while(isNaN(palpite) || palpite < 0 || palpite > 10){
-        alert('Por favor digite um numero inteiro e que satisfaça a condição inicial [0,10]');
+        alert('Por favor digite um numero inteiro e que satisfaça a condição inicial [1,10]');
         var palpite = parseInt(prompt('Escolha um numero entre 0 e 10:'));
     }
 
